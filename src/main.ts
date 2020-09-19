@@ -12,11 +12,9 @@ async function bootstrap() {
 bootstrap();
 
 declare const module: any;
-function launchHotReload(app: INestApplication){
+function launchHotReload(app: INestApplication) {
   if (module.hot) {
     module.hot.accept();
     module.hot.dispose(() => app.close());
   }
 }
-
-

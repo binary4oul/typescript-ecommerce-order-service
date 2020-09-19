@@ -1,0 +1,13 @@
+package.json
+package-lock.json
+deploy/
+dist/
+helm/
+doc/
+seeds/
+node_modules/
+*.yml
+*.md
+config/*
+*.json
+.nyc_output/

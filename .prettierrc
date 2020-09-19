@@ -1,4 +1,18 @@
 {
   "singleQuote": true,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "tabWidth": 2,
+  "semi": true,
+  "printWidth": 85,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "printWidth": 200
+      }
+    }
+  ]
 }
