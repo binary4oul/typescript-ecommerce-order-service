@@ -12,7 +12,11 @@
     "baseUrl": "./src",
     "paths": {
       "@/app-config": ["./app-config/"],
-      "@/app-config/*": ["./app-config/*"]
+      "@/app-config/*": ["./app-config/*"],
+      "@/common": ["./common/"],
+      "@/common/*": ["./common/*"],
+      "@/orders": ["./orders"],
+      "@/orders/*": ["./orders/*"]
     },
     "incremental": true
   },
